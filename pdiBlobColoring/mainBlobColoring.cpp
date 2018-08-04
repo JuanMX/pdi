@@ -39,7 +39,7 @@ Ejecutar: ./mainBlob NombreDeLaImagen.extencion NombreDeLaImagen
 #include "opencv2/core/core.hpp"
 #include "opencv2/highgui/highgui.hpp"
 
-#include "pdiBlobColoring.h"//funcion blob coloring y colorear(colorea, cuenta las regiones, obtiene centroide, area y promedio de intensidad)
+#include "pdiBlobColoring.h"//funcion blob coloring y colorear(colorea y cuenta las regiones)
 
 using namespace std;
 using namespace cv;
