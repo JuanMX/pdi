@@ -28,7 +28,7 @@ Compilar: g++ mainBlobColoring.cpp pdiBlobColoring.cpp pdiBlobColoring.h -o main
 
 Ejecutar: ./mainBlob NombreDeLaImagen.extencion NombreDeLaImagen
 
-*/ 
+*/
 
 #include <stdio.h>
 #include <iostream>

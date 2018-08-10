@@ -32,6 +32,8 @@ Esta función esta limitada a trabajar con imágenes a escala de grises de 256 n
 
 ## gnuplotear
 
+Gráfica el histograma y la exporta a un archivo de imagen con extensión *.png*.
+
 `void gnuplotear( int n_i[ ], int nivelDeIntensidad, char id[])`
 
 donde:
@@ -57,6 +59,6 @@ g++ mainHistograma.cpp pdiHistograma.cpp pdiHistograma.h -o mainHistograma `pkg-
 
 Para usar esta función se necesita tener instalado [gnuplot](http://www.gnuplot.info/) como programa, no como librería ya que `void gnuplotear`se comunica con este programa mediante un apuntador de tipo `Pipe`.
 
-Esta función gráfica el histograma y la exporta a un archivo de imagen con extensión *.png*.
-
 Esta función esta limitada a trabajar con imágenes a escala de grises de 256 niveles de intensidad.
+
+No empieza con `pdi` porque no es una función de procesamiento digital de imágenes, se limita a graficar

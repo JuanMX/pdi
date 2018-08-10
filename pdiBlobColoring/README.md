@@ -62,6 +62,8 @@ La función `int pdiBlobColoring8Vecinos(Mat imagen, Mat regiones)` retorna un n
 
 ### pdiColorearRegiones
 
+Colorea cada región conectadas con un color aleatorio.
+
 Esta función esta declarada como:
 
 `void pdiColorearRegiones(Mat regiones, int totalColores, char imgNombre[])`
