@@ -21,3 +21,11 @@ Crea un *array* que representa un [histograma de imagen](https://en.wikipedia.or
 [pdiMorfologicas](./pdiMorfologicas/)
 
 Contienen las [operaiones morfológicas:]( https://en.wikipedia.org/wiki/Mathematical_morphology ) erosión (`pdiErode`) y dilatación (`pdiDilate`) para imágenes binarias, además de usos para ambas operaciones como [*Open*](https://en.wikipedia.org/wiki/Opening_(morphology)), [*Close*](https://en.wikipedia.org/wiki/Closing_(morphology)) y obtener el contorno.
+
+[pdiImagenNegativa](./pdiImagenNegativa)
+
+Obtiene el negativo de la imagen que se de como entrada.
+
+[imagenParaMeme](./imagenParaMeme)
+
+Una pequeña aplicación que usa código de este repositorio.
