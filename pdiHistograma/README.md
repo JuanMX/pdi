@@ -4,7 +4,7 @@
 
 Crea un *array* que representa un [histograma de imagen](https://en.wikipedia.org/wiki/Image_histogram) dicho histograma típicamente se representa mediante la siguiente expresión:
 
-![histograma](https://latex.codecogs.com/gif.latex?h%28k%29%20%3D%20n_k)
+![histograma](https://latex.codecogs.com/png.image?\small&space;\dpi{300}\bg{white}&space;h(k)&space;=&space;n_k)
 
 donde *h* es la *función* histograma, *k* es el nivel de intensidad y *n* es el número de pixeles con intensidad *k*.
 
